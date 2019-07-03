@@ -20,6 +20,7 @@ package com.tencent.shadow.sample.plugin.app.lib.gallery;
 
 import android.app.Application;
 
+import com.baidu.mapapi.SDKInitializer;
 import com.tencent.shadow.sample.plugin.app.lib.gallery.cases.UseCaseManager;
 
 public class TestApplication extends Application {
@@ -34,6 +35,7 @@ public class TestApplication extends Application {
         isOnCreate = true;
         super.onCreate();
         UseCaseManager.initCase();
+        SDKInitializer.initialize(this);
     }
 
     public static TestApplication getInstance() {

@@ -21,6 +21,16 @@
         </activity>
 
         <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="10913017" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="x2jyChMz3Vk2G4OG0lsBX" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="4Gt5mjxGSNKYI5qBiCBLhuBaCKttB" />
+
+        <meta-data
             android:name="test_meta"
             android:value="test_value" />
 
